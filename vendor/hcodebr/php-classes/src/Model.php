@@ -26,9 +26,7 @@
 			
 		}
 
-	}
-
-		 function setData($data = array()) //na aula do professor esta escrito public
+		 public function setData($data = array()) //na aula do professor esta escrito public
 		{
 
 			foreach ($data as $key => $value) {
@@ -39,9 +37,13 @@
 
 		}
 
-		 function getValues() //na aula do professor esta escrito public
+		public function getValues() //na aula do professor esta escrito public
 		{
 
 			return $this->values;
 		}
+
+	}
+
+		
 ?>
